@@ -3,6 +3,6 @@ header, footer{
     color: #fff;
 }
 
-nav li{
+nav a{
     text-decoration: none;
 }
