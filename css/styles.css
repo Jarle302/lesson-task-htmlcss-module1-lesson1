@@ -1,3 +1,12 @@
+@font-face {
+    font-family: boots-and-spurs;
+    src: url(../fonts/BootsAndSpurs.ttf);
+}
+
+h1{
+    font-family: boots-and-spurs;
+}
+
 header, 
 footer{
     background-color:#202020;
