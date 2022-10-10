@@ -4,7 +4,11 @@ header, footer{
 }
 
 nav ul{
-    text-decoration: none;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
 }
 
 nav a{
