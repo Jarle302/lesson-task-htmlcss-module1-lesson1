@@ -15,3 +15,19 @@ nav a{
     text-decoration: none;
     color:#fff;
 }
+
+.reviews{
+    background-color: #E8E8E8;
+}
+
+.btn-guitar{
+    background-color: #bb0000;
+    color: #fff;
+}
+.btn-guitar-sale{
+    background-color: #127300;
+}
+
+.btn-guitar-index{
+    padding: 120px;
+}
