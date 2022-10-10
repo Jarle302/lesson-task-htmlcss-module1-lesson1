@@ -17,12 +17,17 @@ h1, h2, h3, .logo{
     font-family: 'Roboto', sans-serif;
 }
 
-
+nav .active{
+    color: yellow;
+}
 
 header, 
 footer{
     background-color:#202020;
     color: #fff;
+}
+header{
+    margin-bottom: 0px;
 }
 
 footer{
@@ -31,16 +36,20 @@ footer{
 
 nav ul{
     list-style: none;
+    margin: 0;
+    display: inline-block;
 }
 
 nav li{
     display: inline-block;
+    padding: 20px;
 }
 
 nav a{
     text-decoration: none;
     color:#fff;
 }
+
 
 .reviews{
     background-color: #E8E8E8;
