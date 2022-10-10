@@ -3,8 +3,12 @@
     src: url(../fonts/BootsAndSpurs.ttf);
 }
 
-h1{
-    font-family: boots-and-spurs;
+h1, h2, h3{
+    font-family: boots-and-spurs,Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
 }
 
 header, 
