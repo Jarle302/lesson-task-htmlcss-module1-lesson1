@@ -3,6 +3,11 @@ header, footer{
     color: #fff;
 }
 
+nav ul{
+    text-decoration: none;
+}
+
 nav a{
     text-decoration: none;
+    color:#fff;
 }
