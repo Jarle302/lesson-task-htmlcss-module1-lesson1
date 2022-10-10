@@ -3,7 +3,7 @@
     src: url(../fonts/BootsAndSpurs.ttf);
 }
 
-h1, h2, h3{
+h1, h2, h3, .logo{
     font-family: boots-and-spurs,Verdana, Geneva, Tahoma, sans-serif;
 }
 
