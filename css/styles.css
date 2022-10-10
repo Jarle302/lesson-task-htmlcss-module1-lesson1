@@ -17,10 +17,7 @@ h1, h2, h3, .logo{
     font-family: 'Roboto', sans-serif;
 }
 
-.contact-text
-{
-    font-family: 'Roboto', sans-serif;  
-}
+
 
 header, 
 footer{
@@ -81,4 +78,17 @@ nav a{
 
 .our-gitars img{
     border-radius: 22%;
+}
+
+
+
+/* contact page          
+*/
+
+
+input, 
+select,
+textarea{
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
 }
