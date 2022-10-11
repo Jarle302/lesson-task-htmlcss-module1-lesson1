@@ -36,6 +36,7 @@ footer{
     text-align: center;
 }
 
+
 nav ul{
     list-style: none;
     margin: 0;
@@ -52,6 +53,15 @@ nav a{
     padding: 20px;
 }
 
+.hero-div{
+    position: relative;
+    top: 140px;
+    left: 110px;
+}
+.hero-div a{
+    position: absolute;
+    left: 170px;
+}
 
 .reviews{
     background-color: #E8E8E8;
@@ -83,7 +93,7 @@ nav a{
 
 
 .btn-cta-big{
-    padding: 10px 80px;
+    padding: 20px 140px;
     font-size: 1rem;
     font-weight: bold;
 }
