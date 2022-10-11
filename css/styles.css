@@ -53,15 +53,17 @@ nav a{
     padding: 20px;
 }
 
-.hero-div{
+.hero{
     position: relative;
+}
+
+.hero-div{
+    position: absolute;
     top: 140px;
     left: 110px;
+    text-align: center;
 }
-.hero-div a{
-    position: absolute;
-    left: 170px;
-}
+
 
 .reviews{
     background-color: #E8E8E8;
@@ -93,7 +95,7 @@ nav a{
 
 
 .btn-cta-big{
-    padding: 20px 140px;
+    padding: 10px 80px;
     font-size: 1rem;
     font-weight: bold;
 }
