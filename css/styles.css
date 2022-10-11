@@ -135,3 +135,48 @@ textarea{
     border: 1px solid #c4c4c4;
     border-radius: 5px;
 }
+
+
+.container-big{
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.container-img{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+
+.container-img-small{
+    display: flex;
+    flex: 1;
+}
+
+.product-img-small{
+    flex: 1;
+}
+.product-img-big{
+    flex: 4;
+}
+.container-text{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    
+}
+
+.btn-flex{
+flex: 0 1 0;
+}
+.flex-item{
+    flex: 1;
+}
+
+img{
+    width: 100%;
+}
