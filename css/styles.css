@@ -7,6 +7,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
 h1, h2, h3, .logo{
@@ -56,17 +57,27 @@ nav a{
     background-color: #E8E8E8;
 }
 
+/*buttons */
 .btn{
     background-color: #bb0000;
     color: #fff;
     border-radius: 3px;
 }
+
+.btn{
+    display: inline-block;
+    margin: 5px 0;
+}
 .btn-guitar-sale{
     background-color: #127300;
 }
 
-.btn-guitar-index{
-    padding: 120px;
+.btn-index{
+    padding: 9px 22px;
+}
+
+.btn-cta-big{
+    padding: 18px 100px;
 }
 
 .guitar-list{
