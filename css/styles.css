@@ -28,9 +28,24 @@ footer{
     background-color:#202020;
     color: #fff;
 }
-header{
+nav{
     margin-bottom: 0px;
+    display: flex;
 }
+
+
+nav ul{
+    display: flex;
+}
+
+nav ul > *{
+    flex: 1;
+}
+nav > *{
+    flex:1;
+}
+    
+
 
 footer{
     text-align: center;
@@ -180,12 +195,17 @@ textarea{
     display: flex;
     flex-direction: column;
     flex: 1;
+    gap: 20px;
 
     
 }
 
+#product__header{
+    margin-bottom: 0;
+}
+
 .container-text a{
-    max-width: 100px;
+  
     align-self: center;
 }
 
@@ -205,6 +225,10 @@ figure{
     margin: 0;
 }
 
+
+.flex__item--p{
+    margin: 0;
+}
 
 
 
