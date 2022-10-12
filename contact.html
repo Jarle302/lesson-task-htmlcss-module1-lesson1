@@ -24,7 +24,9 @@
     </header>
     <main>
         <h1 class="contact-text">Contact</h1>
-        <form action="#" method="POST">
+        <form action="#" method="POST" >
+            <div class="form">
+            <div class="form__column--left">
             <label for="Name">Name</label>
             <input name="Name" id="Name" type="text" class="contact-form-input">
             <label for="email">email</label>
@@ -35,11 +37,17 @@
                 <option value="adirondack green">adirondack green</option>
                 <option value="adirondack blue">adirondack blue</option>
             </select>
-            <label for="signup">Sign up for email updates</label>
+            <div>
             <input type="checkbox" name="signup" id="signup">
+            <label for="signup">Sign up for email updates</label>
+        </div>
+        </div>
+        <div class="form__column--right">
             <label for="message">Message</label>
             <textarea class="contact-form-input" name="messsage" id="message" cols="15" rows="5" ></textarea>
-            <input type="submit" value="Send now" class="btn btn-cta-big">
+        </div>
+    </div>
+            <input type="submit" value="Send now" class="btn btn-cta-big form__button">
         </form>
     </main>    
     <footer>
