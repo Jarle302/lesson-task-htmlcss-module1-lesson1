@@ -1,316 +1,323 @@
 @font-face {
-    font-family: boots-and-spurs;
-    src: url(../fonts/BootsAndSpurs.ttf);
+	font-family: boots-and-spurs;
+	src: url(../fonts/BootsAndSpurs.ttf);
 }
 
-
-
-body{
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
+img {
+	width: 100%;
 }
 
-h1, h2, h3, .logo{
-    font-family: boots-and-spurs,Verdana, Geneva, Tahoma, sans-serif;
+body {
+	font-family: "Roboto", sans-serif;
+	margin: 0;
 }
 
-.product-list h2{
-    font-family: 'Roboto', sans-serif;
+h1,
+h2,
+h3,
+.logo {
+	font-family: boots-and-spurs, Verdana, Geneva, Tahoma, sans-serif;
 }
 
-nav .active{
-    color: yellow;
-    text-decoration: underline;
+.product-list h2 {
+	font-family: "Roboto", sans-serif;
 }
 
-header, 
-footer{
-    background-color:#202020;
-    color: #fff;
-}
-nav{
-    margin-bottom: 0px;
-    display: flex;
-    align-items: center;
-    font-size: 1.7rem;
-    min-height: 80px;
-    max-width: 1000px;
+nav .active {
+	color: yellow;
+	text-decoration: underline;
 }
 
-
-nav ul{
-    display: flex;
+header,
+footer {
+	background-color: #202020;
+	color: #fff;
+}
+nav {
+	margin-bottom: 0px;
+	display: flex;
+	align-items: center;
+	font-size: 1.7rem;
+	min-height: 80px;
+	max-width: 1000px;
 }
 
-nav ul > *{
-    flex: 1;
-}
-nav > *{
-    flex:1;
-}
-    
-
-
-footer{
-    text-align: center;
+nav ul {
+	display: flex;
 }
 
-
-nav ul{
-    list-style: none;
-    margin: 0;
-    display: inline-block;
+nav ul > * {
+	flex: 1;
+}
+nav > * {
+	flex: 1;
 }
 
-nav li{
-    display: inline-block;
+footer {
+	text-align: center;
 }
 
-nav a{
-    text-decoration: none;
-    color:#fff;
-    padding: 20px;
+nav ul {
+	list-style: none;
+	margin: 0;
+	display: inline-block;
 }
 
-.hero{
-    position: relative;
+nav li {
+	display: inline-block;
 }
 
-.hero-div{
-    position: absolute;
-    top: 140px;
-    left: 110px;
-    text-align: center;
+nav a {
+	text-decoration: none;
+	color: #fff;
+	padding: 20px;
 }
 
+.hero {
+	position: relative;
+}
 
-.reviews{
-    background-color: #E8E8E8;
+.hero-div {
+	position: absolute;
+	top: 140px;
+	left: 110px;
+	text-align: center;
+}
+
+.reviews {
+	background-color: #e8e8e8;
 }
 
 /*buttons */
-.btn{
-    background-color: #bb0000;
-    color: #fff;
-    border-radius: 3px;
-    text-decoration: none;
+.btn {
+	background-color: #bb0000;
+	color: #fff;
+	border-radius: 3px;
+	text-decoration: none;
 }
 
-.btn{
-    display: inline-block;
-    margin: 5px 0;
-    border-radius: 5px;
-    text-transform: uppercase;
+.btn {
+	display: inline-block;
+	margin: 5px 0;
+	border-radius: 5px;
+	text-transform: uppercase;
 }
-.btn-guitar-sale{
-    background-color: #127300;
-}
-
-.btn-small{
-    padding: 5px 18px;
-    font-size: 0.8rem;
+.btn-guitar-sale {
+	background-color: #127300;
 }
 
-
-
-.btn-cta-big{
-    padding: 10px 80px;
-    font-size: 1rem;
-    font-weight: bold;
+.btn-small {
+	padding: 5px 18px;
+	font-size: 0.8rem;
 }
 
-
-
-.guitar-list{
-    background-color: #fbfbfb;
+.btn-cta-big {
+	padding: 10px 80px;
+	font-size: 1rem;
+	font-weight: bold;
 }
 
-.reviews-img{
-    border-radius: 50%;
+.guitar-list {
+	background-color: #fbfbfb;
 }
 
-.hero{
-    background-image: url(../images/home-header.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 70vh;
-    background-position-x: right;
-    background-position-y: bottom;
+.reviews-img {
+	border-radius: 50%;
 }
 
-.our-gitars img{
-    border-radius: 22%;
+.hero {
+	background-image: url(../images/home-header.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 70vh;
+	background-position-x: right;
+	background-position-y: bottom;
 }
 
+.our-gitars img {
+	border-radius: 22%;
+}
 
+/* index page */
 
+.index__section--our-gitars-are {
+	display: flex;
+	max-height: 400px;
+	max-width: 1000px;
+	margin: 70px auto;
+	justify-content: center;
+	gap: 60px;
+}
 
+.index__section--our-gitars-are__div--text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 
+.index__section--our-gitars-are__img {
+	min-width: 0;
+}
 
-input, 
+.index__section--our-gitars-are > * {
+	flex: 1;
+}
+
+.index__section--reviews {
+	display: flex;
+}
+
+.index__section--reviews__img {
+	width: 50px;
+	height: auto;
+}
+
+input,
 select,
-textarea{
-    border: 1px solid #c4c4c4;
-    border-radius: 5px;
+textarea {
+	border: 1px solid #c4c4c4;
+	border-radius: 5px;
 }
 
 /* Product page */
 
-.container-product-allcolumns{
-    display: flex;
-    justify-content: center;
-    max-width: 1000px;
-    margin: 6rem auto;
-    gap: 45px;
+.container-product-allcolumns {
+	display: flex;
+	justify-content: center;
+	max-width: 1000px;
+	margin: 6rem auto;
+	gap: 45px;
 }
 
-.container-img{
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    
- 
- 
+.container-img {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
 }
 
-
-.container-img-small{
-    display: flex;
-    flex: 1;
-    
-  
+.container-img-small {
+	display: flex;
+	flex: 1;
 }
 
 .container-img-small,
-.container-img{
-    gap:10px;
+.container-img {
+	gap: 10px;
 }
 
-.product-img-small{
-    flex: 1;
-   
+.product-img-small {
+	flex: 1;
 }
 
-
-.product-img-big{
-    flex: 4;
-}
-.container-text{
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    gap: 20px;
+.product-img-big {
+	flex: 4;
+    height: 400px;
 
     
 }
 
-#product__header{
-    margin-bottom: 0;
+.product__image--big{
+    height: 100%;
+}
+.container-text {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	gap: 20px;
 }
 
-.container-text a{
-  
-    align-self: center;
+#product__header {
+	margin-bottom: 0;
 }
 
-
-.flex-item{
-    flex: 1;
+.container-text a {
+	align-self: center;
 }
 
-img{
-    width: 100%;
+.flex-item {
+	flex: 1;
 }
 
-
-
-
-figure{
-    margin: 0;
+figure {
+	margin: 0;
 }
 
-
-.flex__item--p{
-    margin: 0;
-    font-size: 1.2rem;
+.flex__item--p {
+	margin: 0;
+	font-size: 1.2rem;
 }
 
-.flex__item--p--price{
-    font-size: 1.6rem;
-    font-weight: bold;
+.flex__item--p--price {
+	font-size: 1.6rem;
+	font-weight: bold;
 }
 
-.product__btn--cta{
-    margin-top: 47px;
-padding: 18px 90px;
-font-size: 1.4rem;
+.product__btn--cta {
+	margin-top: 47px;
+	padding: 18px 90px;
+	font-size: 1.4rem;
 }
-
 
 /*Contact page */
 
-.contact__main{
-    display: flex;
-    flex-direction: column;
-    margin: 120px 0px 150px 0px;
+.contact__main {
+	display: flex;
+	flex-direction: column;
+	margin: 120px 0px 150px 0px;
 }
 
-.form__container--big{
-    display: flex;
-    flex-direction:column;
+.form__container--big {
+	display: flex;
+	flex-direction: column;
 }
 
-.contact-text{
-    text-align: center;
+.contact-text {
+	text-align: center;
 }
 
-.form{
-    display: flex;
-    max-width: 1000px;
-    justify-content: center;
-    margin: auto;
-    min-height: 300px;
-    gap: 40px;
+.form {
+	display: flex;
+	max-width: 1000px;
+	justify-content: center;
+	margin: auto;
+	min-height: 300px;
+	gap: 40px;
 }
 
-.form__column--left, 
-.form__column--right{
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    justify-items: flex-start;
-    gap: 10px;
-    
+.form__column--left,
+.form__column--right {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	justify-items: flex-start;
+	gap: 10px;
 }
 
-
-.form__column--left > *, 
+.form__column--left > *,
 .form__column--right > * {
-    flex:1;
-max-height: 60px;
-min-width: 300px;
+	flex: 1;
+	max-height: 60px;
+	min-width: 300px;
 }
 
-
-
-.form__column--left label, .form__column--right label{
-    flex: 0 1;
+.form__column--left label,
+.form__column--right label {
+	flex: 0 1;
 }
 
-#message{
-    max-height: 70%;
+#message {
+	max-height: 70%;
 }
 
-.form_button{
-    flex: 1;
-    align-self: center;
+.form_button {
+	flex: 1;
+	align-self: center;
 }
 
-#btn--contact{
-    flex: 1;
-    align-self: center;
-    margin-top: 40px;
-    padding: 18px 90px;
-font-size: 1.4rem;
+#btn--contact {
+	flex: 1;
+	align-self: center;
+	margin-top: 40px;
+	padding: 18px 90px;
+	font-size: 1.4rem;
 }
-
