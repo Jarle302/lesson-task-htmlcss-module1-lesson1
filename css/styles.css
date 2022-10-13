@@ -165,11 +165,41 @@ nav a {
 
 .index__section--reviews {
 	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	justify-content: center;
+	padding: 55px;
+}
+
+.index__section--reviews > * {
+	flex: 1;
+}
+
+.index__section--reviews__h2 {
+	flex: 100%;
+    
+}
+
+.index__section--reviews__div--first {
+	display: flex;
+	max-width: 1000px;
+	text-align: start;
+	
 }
 
 .index__section--reviews__img {
-	width: 50px;
+	width: 80px;
 	height: auto;
+	float: right;
+}
+
+.index__span {
+	display: block;
+	margin-top: 20px;
+}
+
+.index__section--reviews div{
+    margin: auto 111px;
 }
 
 input,
@@ -211,13 +241,11 @@ textarea {
 
 .product-img-big {
 	flex: 4;
-    height: 400px;
-
-    
+	height: 400px;
 }
 
-.product__image--big{
-    height: 100%;
+.product__image--big {
+	height: 100%;
 }
 .container-text {
 	display: flex;
