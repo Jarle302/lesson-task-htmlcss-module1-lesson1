@@ -265,6 +265,7 @@ figure{
     flex: 1;
     justify-items: flex-start;
     gap: 10px;
+    
 }
 
 
@@ -275,12 +276,14 @@ max-height: 60px;
 min-width: 300px;
 }
 
-#message{
-    max-height: 70%;
-}
+
 
 .form__column--left label, .form__column--right label{
     flex: 0 1;
+}
+
+#message{
+    max-height: 70%;
 }
 
 .form_button{
