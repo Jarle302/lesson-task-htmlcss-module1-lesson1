@@ -31,6 +31,10 @@ footer{
 nav{
     margin-bottom: 0px;
     display: flex;
+    align-items: center;
+    font-size: 1.7rem;
+    min-height: 80px;
+    max-width: 1000px;
 }
 
 
@@ -228,8 +232,19 @@ figure{
 
 .flex__item--p{
     margin: 0;
+    font-size: 1.2rem;
 }
 
+.flex__item--p--price{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.product__btn--cta{
+    margin-top: 47px;
+padding: 18px 90px;
+font-size: 1.4rem;
+}
 
 
 /*Contact page */
