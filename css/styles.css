@@ -22,6 +22,9 @@ h3,
 	font-family: boots-and-spurs, Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.logo {
+	max-width: 250px;
+}
 .product-list h2 {
 	font-family: "Roboto", sans-serif;
 }
@@ -38,7 +41,7 @@ footer {
 	max-height: 83px;
 }
 
-footer{
+footer {
 	padding: 20px;
 }
 nav {
@@ -117,6 +120,8 @@ nav a {
 .btn-small {
 	padding: 5px 18px;
 	font-size: 0.8rem;
+	min-width: 50px;
+	text-align: center;
 }
 
 .btn-cta-big {
@@ -408,4 +413,39 @@ main {
 
 .gitars__section p {
 	margin: 0;
+}
+
+.product--old-price {
+	text-decoration: line-through;
+}
+
+.price__div {
+	display: flex;
+	gap: 15px;
+}
+
+/* Mobile styles */
+@media only screen and (max-width: 400px) {
+	nav ul {
+		display: none;
+	}
+
+	.logo {
+		margin-left: 10px;
+	}
+}
+
+/* Tablet styles */
+@media only screen and (min-width: 401px) and (max-width: 820px) {
+	nav ul {
+		display: none;
+	}
+}
+
+/* Desktop styles */
+@media only screen and (min-with: 821px) {
+	nav input,
+	nav label {
+		display: none;
+	}
 }
