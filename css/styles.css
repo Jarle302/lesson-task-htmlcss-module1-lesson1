@@ -177,14 +177,12 @@ nav a {
 
 .index__section--reviews__h2 {
 	flex: 100%;
-    
 }
 
 .index__section--reviews__div--first {
 	display: flex;
 	max-width: 1000px;
 	text-align: start;
-	
 }
 
 .index__section--reviews__img {
@@ -198,8 +196,8 @@ nav a {
 	margin-top: 20px;
 }
 
-.index__section--reviews div{
-    margin: auto 111px;
+.index__section--reviews div {
+	margin: auto 111px;
 }
 
 input,
@@ -348,4 +346,45 @@ figure {
 	margin-top: 40px;
 	padding: 18px 90px;
 	font-size: 1.4rem;
+}
+
+/* Gitars */
+main{
+	text-align: center;
+	
+}
+.gitars__grid--img {
+	grid-area: img;
+}
+.gitars__grid--h2 {
+	grid-area: h2;
+}
+.gitars__grid--p {
+	grid-area: p;
+}
+.gitars__grid--btn {
+	grid-area: btn;
+}
+
+.gitars__button {
+	float: right;
+}
+
+.gitars__h2 {
+	margin: 0 0px 0 0;
+	display: inline-block;
+}
+
+.gitars__section {
+	max-width: 1000px;
+	margin: auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-gap: 1.5rem;
+	text-align: start;
+}
+
+.gitars__section p {
+	margin: 0;
 }
