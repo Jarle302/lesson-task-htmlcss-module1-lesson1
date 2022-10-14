@@ -207,6 +207,15 @@ textarea {
 	border-radius: 5px;
 }
 
+.index__section--view-our-gitars{
+	text-align: start;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 1rem;
+	max-width: 1200px;
+	margin: auto;
+}
+
 /* Product page */
 
 .container-product-allcolumns {
@@ -373,6 +382,8 @@ main{
 .gitars__h2 {
 	margin: 0 0px 0 0;
 	display: inline-block;
+	font-family: "Roboto", sans-serif;
+	
 }
 
 .gitars__section {
