@@ -1,67 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Contact guitar kings for our amazing guitars">
-    <title>Guitar kings | contact</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="Contact guitar kings for our amazing guitars"
+		/>
+		<title>Guitar kings | contact</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,400;1,700&display=swap" rel="stylesheet">
-<script
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,400;1,700&display=swap"
+			rel="stylesheet"
+		/>
+		<script
 			src="https://kit.fontawesome.com/92a83e3665.js"
 			crossorigin="anonymous"
-		></script>    
-<link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-    <header class="header__flex">
-        <input type="checkbox" name="nav--hamburger-menu" id="hamburger-menu" />
-        <label id="ham_menu" class="hamburger-menu-icon" for="hamburger-menu"><i class="fa-solid fa-bars"></i></label>
-        <a class="logo" href="index.html">Guitar Kings</a>
+		></script>
+		<link rel="stylesheet" href="css/styles.css" />
+	</head>
+	<body>
+		<header class="header__flex">
+			<input type="checkbox" name="nav--hamburger-menu" id="hamburger-menu" />
+			<label id="ham_menu" class="hamburger-menu-icon" for="hamburger-menu"
+				><i class="fa-solid fa-bars"></i
+			></label>
+			<a class="logo" href="index.html">Guitar Kings</a>
 
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="guitars.html">Guitars</a></li>
-                <li><a href="contact.html" class="active">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main class="contact__main">
-        <h1 class="contact-text">Contact us</h1>
-        <form action="#" method="POST" class="form__container--big" >
-            <div class="form">
-            <div class="form__column--left">
-            <label for="Name">Name</label>
-            <input name="Name" id="Name" type="text" class="contact-form-input">
-            <label for="email">email</label>
-            <input name="email" id="email" type="text" class="contact-form-input">
-            <label for="guitar">Guitar</label>
-            <select name="guitar" id="guitar">
-                <option value="adirondack red">adirondack red</option>
-                <option value="adirondack green">adirondack green</option>
-                <option value="adirondack blue">adirondack blue</option>
-            </select>
-            <div>
-            <input type="checkbox" name="signup" id="signup">
-            <label for="signup">Sign up for email updates</label>
-        </div>
-        </div>
-        <div class="form__column--right">
-            <label for="message">Message</label>
-            <textarea class="contact-form-input" name="messsage" id="message" cols="15" rows="5" ></textarea>
-        </div>
-    </div>
-            <input type="submit" value="Send now" id="btn--contact" class="btn btn-cta-big form__button">
-        </form>
-    </main>    
-    <footer>
-        copyright &copy;
-            </footer>
-</body>
-
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="guitars.html">Guitars</a></li>
+					<li><a href="contact.html" class="active">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main class="contact__main">
+			<h1 class="contact-text">Contact us</h1>
+			<form action="#" method="POST" class="form__container--big">
+				<div class="form">
+					<div class="form__column--left">
+						<label for="Name">Name</label>
+						<input
+							name="Name"
+							id="Name"
+							type="text"
+							class="contact-form-input"
+						/>
+						<label for="email">email</label>
+						<input
+							name="email"
+							id="email"
+							type="text"
+							class="contact-form-input"
+						/>
+						<label for="guitar">Guitar</label>
+						<select name="guitar" id="guitar">
+							<option value="adirondack red">adirondack red</option>
+							<option value="adirondack green">adirondack green</option>
+							<option value="adirondack blue">adirondack blue</option>
+						</select>
+						<div>
+							<input type="checkbox" name="signup" id="signup" />
+							<label for="signup">Sign up for email updates</label>
+						</div>
+					</div>
+					<div class="form__column--right">
+						<label for="message">Message</label>
+						<textarea
+							class="contact-form-input"
+							name="messsage"
+							id="message"
+							cols="15"
+							rows="5"
+						></textarea>
+					</div>
+				</div>
+				<input
+					type="submit"
+					value="Send now"
+					id="btn--contact"
+					class="btn btn-cta-big form__button"
+				/>
+			</form>
+		</main>
+		<footer>copyright &copy;</footer>
+	</body>
 </html>
-

@@ -464,37 +464,35 @@ main {
 		grid-template-columns: 1fr;
 	}
 
+	.gitars__section {
+		grid-template-columns: 1fr;
+		margin: 10px;
+	}
+	.container-product-allcolumns {
+		display: grid;
+		grid-template-columns: 1fr;
+		margin: 10px;
+	}
 
-.gitars__section {
-	grid-template-columns: 1fr;
-	margin: 10px;
-}
-.container-product-allcolumns {
-	display: grid;
-	grid-template-columns: 1fr;
-	margin: 10px;
-}
+	.form__column--left {
+		grid-area: left;
+	}
+	.form__column--right {
+		grid-area: right;
+	}
 
-.form__column--left {
-	grid-area: left;
-}
-.form__column--right {
-	grid-area: right;
-}
+	.form {
+		margin: 5px;
+		display: grid;
+		grid-template-areas:
+			"left"
+			"right";
+	}
 
-.form {
-	margin: 5px;
-	display: grid;
-	grid-template-areas:
-		"left"
-		"right";
-}
-
-.form__column--left > *,
-.form__column--right > * {
-	padding: 15px;
-}
-
+	.form__column--left > *,
+	.form__column--right > * {
+		padding: 15px;
+	}
 }
 /* Tablet styles */
 @media only screen and (min-width: 421px) and (max-width: 820px) {
