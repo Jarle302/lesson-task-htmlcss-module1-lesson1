@@ -10,6 +10,9 @@ img {
 body {
 	font-family: "Roboto", sans-serif;
 	margin: 0;
+	min-height: 100vh;
+	display: grid;
+	grid-row: auto 1fr auto;
 }
 
 h1,
@@ -32,6 +35,11 @@ header,
 footer {
 	background-color: #202020;
 	color: #fff;
+	max-height: 83px;
+}
+
+footer{
+	padding: 20px;
 }
 nav {
 	margin-bottom: 0px;
@@ -147,12 +155,14 @@ nav a {
 	margin: 70px auto;
 	justify-content: center;
 	gap: 60px;
+	text-align: start;
 }
 
 .index__section--our-gitars-are__div--text {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	font-size: 1.2rem;
 }
 
 .index__section--our-gitars-are__img {
@@ -169,6 +179,7 @@ nav a {
 	text-align: center;
 	justify-content: center;
 	padding: 55px;
+	font-size: 1.2rem;
 }
 
 .index__section--reviews > * {
@@ -183,6 +194,7 @@ nav a {
 	display: flex;
 	max-width: 1000px;
 	text-align: start;
+	gap: 414px;
 }
 
 .index__section--reviews__img {
@@ -196,10 +208,6 @@ nav a {
 	margin-top: 20px;
 }
 
-.index__section--reviews div {
-	margin: auto 111px;
-}
-
 input,
 select,
 textarea {
@@ -207,13 +215,17 @@ textarea {
 	border-radius: 5px;
 }
 
-.index__section--view-our-gitars{
+.index__section--view-our-gitars {
 	text-align: start;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-gap: 1rem;
 	max-width: 1200px;
 	margin: auto;
+}
+
+.view__h2 {
+	margin: 40px;
 }
 
 /* Product page */
@@ -358,9 +370,8 @@ figure {
 }
 
 /* Gitars */
-main{
+main {
 	text-align: center;
-	
 }
 .gitars__grid--img {
 	grid-area: img;
@@ -383,7 +394,6 @@ main{
 	margin: 0 0px 0 0;
 	display: inline-block;
 	font-family: "Roboto", sans-serif;
-	
 }
 
 .gitars__section {
