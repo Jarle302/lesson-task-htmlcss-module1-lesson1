@@ -34,6 +34,11 @@ nav .active {
 	text-decoration: underline;
 }
 
+header{
+	display: flex;
+	align-items: center;
+}
+
 header,
 footer {
 	background-color: #202020;
@@ -44,6 +49,7 @@ footer {
 footer {
 	padding: 20px;
 }
+
 nav {
 	margin-bottom: 0px;
 	display: flex;
@@ -52,6 +58,19 @@ nav {
 	min-height: 80px;
 	max-width: 1000px;
 }
+
+#hamburger-menu:checked ~ nav {
+display: flex;
+}
+
+#hamburger-menu{margin-left: 5px;}
+
+
+nav,
+#hamburger-menu{
+	display: none;
+}
+	
 
 nav ul {
 	display: flex;
@@ -68,6 +87,10 @@ footer {
 	text-align: center;
 }
 
+.header__flex{
+	display: flex;
+}
+
 nav ul {
 	list-style: none;
 	margin: 0;
@@ -78,7 +101,7 @@ nav li {
 	display: inline-block;
 }
 
-nav a {
+a {
 	text-decoration: none;
 	color: #fff;
 	padding: 20px;
