@@ -456,9 +456,10 @@ header{
 	nav {
 		display: none;
 		position: absolute;
-		top: 20px;
-		background: black;
-		padding: 10vh;
+    top: 53px;
+    background: black;
+    padding: 22vh 10vh;
+    right: 171px;
 	}
 
 
