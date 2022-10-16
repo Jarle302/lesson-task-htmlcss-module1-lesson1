@@ -459,6 +459,7 @@ header{
 		top: 20px;
 		background: black;
 		padding: 10vh;
+		z-index: 1000;
 	}
 
 
@@ -563,6 +564,7 @@ left: 0;
 	}
 	nav {
 		display: flex;
+		z-index: 1000;
 	}
 
 	.gitars__section {
