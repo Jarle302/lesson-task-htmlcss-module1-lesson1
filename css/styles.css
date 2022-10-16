@@ -134,7 +134,30 @@ a {
 	margin: 5px 0;
 	border-radius: 5px;
 	text-transform: uppercase;
+	position: relative;
+	overflow: hidden;
+	
 }
+
+.btn::before{
+	content: "";
+	padding: 10px;
+	transform: rotate(0.1turn);
+	background-color: white;
+	opacity: 0.5;
+	transform: rotate(.5urn);
+	position: absolute;
+	bottom: -43px;
+	right: 289px;
+	height: 100px;
+	transition: 2s;
+  }
+	
+.btn:hover::before{
+	
+	right: -32px;
+}
+
 .btn-guitar-sale {
 	background-color: #127300;
 }
@@ -431,10 +454,12 @@ main {
 	grid-template-rows: 1fr 1fr 1fr;
 	grid-gap: 1.5rem;
 	text-align: start;
+	opacity: 0;
+	animation: fade-in 1s forwards;
 }
 
-.gitars__section p {
-	margin: 0;
+@keyframes fade-in{
+	100%{ opacity: 1;}
 }
 
 .product--old-price {
