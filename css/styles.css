@@ -455,11 +455,12 @@ header{
 
 	nav {
 		display: none;
-		position: absolute;
-		top: 20px;
+		position: fixed;
+		top: 63px;
 		background: black;
 		padding: 10vh;
 		z-index: 1000;
+		right: 0px;
 	}
 
 
