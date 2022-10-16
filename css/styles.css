@@ -477,6 +477,17 @@ header{
 		margin-left: 10px;
 	}
 
+	.hero {
+		
+		background-position-x: center;
+		
+	}
+
+	.hero-div{
+top: 113px;
+left: 0;
+	}
+
 	.index__section--our-gitars-are {
 		display: grid;
 		grid-template-columns: 1fr;
